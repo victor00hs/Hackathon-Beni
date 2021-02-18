@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+.icon {
+    padding-right: 4px;
+}
+
+.hero-container {
+    width: 100%;
+}
+
+.hero-image {
+    background-image: url("../assets/images/home.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 850px;
+    width: 70%;
+    float: left;
+    margin-bottom: 70px;
+    margin-right: 80px;
+}
+
+.hero-text > h1{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 90px;
+}
+
+.display-4{
+    font-family: Verdana; 
+}
+
+/* Featurettes */
+
+.featurette {
+    clear: left;
+}
+
+/* Separate elements from the horizontal line */
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  .left-img-featurette {
+    padding-left: 35px;
+  }
+  
+  @media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  } 
+  
+  #background {
+    background-color: rgb(245, 245, 247);
+  }
+  
+  .genreTitles{
+    background-color: white;
+    padding: 10px;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.2%;
+  }
+  
+  
+  /* P: Text from films*/
+  .lead {
+    text-align: justify;
+  }
+  
+  .featurette-image {
+    height:580px;
+  }

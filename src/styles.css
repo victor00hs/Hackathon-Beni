@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/*Navbar*/
+.sidebar-nav {
+    padding: 9px 0;
+  }
+  
+  .navbar-dark {
+  background-color:#313131;
+  }
+  
+  .nav-item:hover {
+  font-weight: bold;
+  }
+  /*END Navbar*/
+
